@@ -4,7 +4,7 @@
 ***********************
 
 Installation:
-Copy the "buffwatch" folder in the zip file into the addons folder in your Ashita directory.
+Copy the contents of the zip file into a folder named "buffwatch" under the addons folder in your Ashita directory.
 
 Use:
 
