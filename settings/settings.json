@@ -1,0 +1,35 @@
+{
+    "font": {
+        "color": 4294967295,
+        "family": "Arial",
+        "position": [ 500, 425 ],
+        "size": 8,
+		"bgcolor": 2147483648,
+        "bgvisible": true
+    },
+    "buffs": {
+		"WAR": [],
+		"MNK": [],
+		"WHM": [],
+		"BLM": [],
+		"RDM": [],
+		"THF": [],
+		"PLD": ["Enlight", "Sentinel", "Enmity Boost",  "Phalanx", "Reprisal", "Majesty"],
+		"DRK": [],
+		"BST": [],
+		"BRD": [],
+		"RNG": [],
+		"SMN": [],
+		"SAM": [],
+		"NIN": [],
+		"DRG": [],
+		"BLU": [],
+		"COR": [],
+		"PUP": [],
+		"DNC": [],
+		"SCH": [],
+		"GEO": [],
+		"RUN": []
+	}
+
+}
