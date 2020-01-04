@@ -41,6 +41,8 @@ ashita.register_event('load', function()
     f:GetBackground():SetVisibility(buffWatch_config .font.bgvisible);
     f:SetText("Loading...");
     f:SetVisibility(true);
+	
+	print(AshitaCore:GetDataManager():GetPlayer():GetMainJob());
 end);
 
 ashita.register_event('render', function()
@@ -110,13 +112,13 @@ function getBuffsByJob()
 	elseif (job == 11) then 
 		return buffWatch_config.buffs.RNG;
 	elseif (job == 12) then 
-		return buffWatch_config.buffs.SMN;
-	elseif (job == 13) then 
 		return buffWatch_config.buffs.SAM;
-	elseif (job == 14) then 
+	elseif (job == 13) then 
 		return buffWatch_config.buffs.NIN;
-	elseif (job == 15) then 
+	elseif (job == 14) then 
 		return buffWatch_config.buffs.DRG;
+	elseif (job == 15) then 
+		return buffWatch_config.buffs.SMN;
 	elseif (job == 16) then 
 		return buffWatch_config.buffs.BLU;
 	elseif (job == 17) then 
